@@ -9,11 +9,14 @@
     - ../variables.yaml
 
   tasks:
-  - name: Clona Repositorio Git
-    ansible.builtin.git:
-      repo: "{{ url_git }}"
-      dest: "Race-to-the-Cloud-app"
+#  - name: Clona Repositorio Git
+#    ansible.builtin.git:
+#      repo: "{{ url_git }}"
+#      dest: "Race-to-the-Cloud-app"
 
+  - name: Clona Repositorio
+    shell: "git clone {{ url_git }}"
+  
   - name: Build Imagen de Contenedor
     shell: "podman build --tag ci-app Race-to-the-Cloud-app/"
 
