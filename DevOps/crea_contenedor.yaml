@@ -12,10 +12,10 @@
   - name: Clona Repositorio Git
     ansible.builtin.git:
       repo: "{{ url_git }}"
-      dest: "~/Race-to-the-Cloud-app"
+      dest: "Race-to-the-Cloud-app"
 
   - name: Build Imagen de Contenedor
-    shell: "podman build --tag ci-app ~/Race-to-the-Cloud-app/"
+    shell: "podman build --tag ci-app Race-to-the-Cloud-app/"
 
   - name: Tag Imagen
     shell: "podman tag localhost/ci-app:latest scl.ocir.io/axmdrz5zetbw/cp-app:latest"
