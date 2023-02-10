@@ -30,7 +30,7 @@ https://user-images.githubusercontent.com/14284928/217976649-b8c72a52-9ed4-4757-
 https://user-images.githubusercontent.com/14284928/217976766-5c5407ea-f329-499f-acd2-8d8b02d82e07.mov
 
 
-3. Crear compartment llamado RaceToCloud
+3. Crear compartment llamado redbull
 
 ```
 Menu > Identity & Security > Compartmente > New Compartment
