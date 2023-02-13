@@ -1,4 +1,4 @@
-compartment_ocid: 'ocid1.compartment.oc1..aaaaaaaaqnh5zwkjdx2gsk57blgdl7rvt5rvr7fvwjs35ckliualcdpegy3a'
+compartment_ocid: 'ocid1.compartment.oc1..aaaaaaaaqcm7quvvhyzfokrtjqqcnp32uq63cprynkbcsmisawbvqswaeaqa' 
 url_git: "https://github.com/whiplash0104/Race-to-the-Cloud-app.git"
 
 admin_password: 'TestContainerI_#123'
